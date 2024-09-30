@@ -32,7 +32,7 @@ const UserChat = ({chat,user}) => {
             <div className="date">
                 12/12/2022
             </div>
-            <div className="this-user-notifications">2</div>
+            <div className="this-user-notifications">3</div>
         </div>
     </Stack>
 }
