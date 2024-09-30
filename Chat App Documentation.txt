@@ -1,0 +1,39 @@
+Chat App Documentation
+
+1. Create a folder name "chat-app" in your system and open it in vs code editor.
+2. Create three folders --> Server, Client, Socket
+3. Open terminal and go to server folder --> Create index.js file, Controllers, Models, Routes folders and run another command "npm init --yes" to initialize node package module
+4. Run "npm i express mongoose cors dotenv bcrypt jsonwebtoken validator" to install express, mongoose, cors, dotenv, bcrypt, jsonwebtoken, validator.
+5. Run "npm i -g nodemon" nodemon helps to restart the server and reflect ongoing changes.
+6. Cloud mongodb IP -> 157.37.142.94, User -> soumitatalukder2020, Password -> l31xVuJRh5G8GZD5
+7. Mongodb Atlas connection (copy paste)mongodb+srv://soumitatalukder2020:l31xVuJRh5G8GZD5@cluster0.f6yng.mongodb.net/ 
+8. Node connection (copy paste to .env file) mongodb+srv://soumitatalukder2020:l31xVuJRh5G8GZD5@cluster0.f6yng.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+9. Change path folder to client and run "npm create vite@latest"
+project name -> .
+framework -> react
+variant -> javascript
+
+run "npm install"
+run "npm run dev"
+
+run "npm i react-router-dom"
+
+10. Create folders components, pages under client->src
+11. Create Chat.jsx,Login.jsx,Register.jsx in pages folder.
+
+
+12. Run "npm i react-bootstrap bootstrap".
+
+13. Create "context" folder under client -> src. In context folder create AuthContext.jsx file. 
+
+14. Create "utils" folder under client -> src. In context folder create services.js file. 
+
+
+15. Create "chat" folder in components folder. Create "UserChat.jsx" file in it.
+
+16. Create "hooks" folder in src folder.
+
+17. Run "npm i moment react-input-emoji socket.io-client" in client directory.
+18. Run "npm i socket.io" in socket directory.
+
